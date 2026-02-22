@@ -92,7 +92,7 @@ class MainWindow(CTk):
         self.sock.connect(("127.0.0.1", 9090))
         self.is_connected = True
 
-        self.add_message(f"Ви підключені як {self.username}")
+        self.add_message(f"Ви підключені як... {self.username}")
 
 
 
